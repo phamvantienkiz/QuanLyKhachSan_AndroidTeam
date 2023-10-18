@@ -8,6 +8,9 @@ namespace QuanLyKhachSan_AndroidTeam
 {
     internal static class Program
     {
+        //Hi team!
+
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
