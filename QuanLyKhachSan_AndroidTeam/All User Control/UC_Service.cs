@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyKhachSan_AndroidTeam
+namespace QuanLyKhachSan_AndroidTeam.All_User_Control
 {
-    public partial class Form1 : Form
+    public partial class UC_Service : UserControl
     {
-        public Form1()
+        public UC_Service()
         {
             InitializeComponent();
         }
