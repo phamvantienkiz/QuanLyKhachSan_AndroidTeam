@@ -20,6 +20,7 @@ namespace QuanLyKhachSan_AndroidTeam.All_User_Control
         public void choTuyet()
         {
             MessageBox.Show("Chó Tuyết");
+            //commit
         }
     }
 }
