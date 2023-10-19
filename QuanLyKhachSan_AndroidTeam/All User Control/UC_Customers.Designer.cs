@@ -359,12 +359,10 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Button btnExit;
 
-        //xoa khach hang
-        public void removeCustomers()
-        {
-            //goi ham gif
 
-        }
+
+
+
     }
 
     
