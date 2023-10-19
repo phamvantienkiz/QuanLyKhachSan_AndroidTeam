@@ -16,5 +16,10 @@ namespace QuanLyKhachSan_AndroidTeam.All_User_Control
         {
             InitializeComponent();
         }
+
+        public void choTuyet()
+        {
+            MessageBox.Show("Chó Tuyết");
+        }
     }
 }
