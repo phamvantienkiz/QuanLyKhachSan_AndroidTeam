@@ -485,5 +485,7 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse6;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse7;
     }
+
+    //code ở đây
 }
 
