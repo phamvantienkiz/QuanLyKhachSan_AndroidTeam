@@ -40,6 +40,7 @@
             this.btnPayBills = new Guna.UI2.WinForms.Guna2Button();
             this.btnReservations = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -47,28 +48,27 @@
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Reservations1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_Reservations();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_ServiceDetail1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_ServiceDetail();
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Employees1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_Employees();
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Rooms1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_Rooms();
             this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Customers1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_Customers();
             this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Service1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_Service();
             this.guna2Elipse7 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uC_PayBills1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_PayBills();
+            this.uC_Service1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_Service();
+            this.uC_Customers1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_Customers();
+            this.uC_Rooms1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_Rooms();
+            this.uC_Employees1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_Employees();
+            this.uC_ServiceDetail1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_ServiceDetail();
+            this.uC_Reservations1 = new QuanLyKhachSan_AndroidTeam.All_User_Control.UC_Reservations();
             this.guna2Panel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -256,6 +256,19 @@
             this.panel1.Size = new System.Drawing.Size(1321, 673);
             this.panel1.TabIndex = 7;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(1321, 673);
+            this.dataGridView1.TabIndex = 0;
+            // 
             // guna2Panel3
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.Gray;
@@ -337,84 +350,29 @@
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1321, 673);
-            this.dataGridView1.TabIndex = 0;
-            // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.TargetControl = this;
-            // 
-            // uC_Reservations1
-            // 
-            this.uC_Reservations1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Reservations1.Name = "uC_Reservations1";
-            this.uC_Reservations1.Size = new System.Drawing.Size(1321, 673);
-            this.uC_Reservations1.TabIndex = 1;
             // 
             // guna2Elipse2
             // 
             this.guna2Elipse2.TargetControl = this;
             // 
-            // uC_ServiceDetail1
-            // 
-            this.uC_ServiceDetail1.Location = new System.Drawing.Point(-3, 3);
-            this.uC_ServiceDetail1.Name = "uC_ServiceDetail1";
-            this.uC_ServiceDetail1.Size = new System.Drawing.Size(1321, 673);
-            this.uC_ServiceDetail1.TabIndex = 2;
-            // 
             // guna2Elipse3
             // 
             this.guna2Elipse3.TargetControl = this;
-            // 
-            // uC_Employees1
-            // 
-            this.uC_Employees1.Location = new System.Drawing.Point(-3, 4);
-            this.uC_Employees1.Name = "uC_Employees1";
-            this.uC_Employees1.Size = new System.Drawing.Size(1321, 673);
-            this.uC_Employees1.TabIndex = 3;
             // 
             // guna2Elipse4
             // 
             this.guna2Elipse4.TargetControl = this;
             // 
-            // uC_Rooms1
-            // 
-            this.uC_Rooms1.Location = new System.Drawing.Point(-3, 3);
-            this.uC_Rooms1.Name = "uC_Rooms1";
-            this.uC_Rooms1.Size = new System.Drawing.Size(1321, 673);
-            this.uC_Rooms1.TabIndex = 4;
-            // 
             // guna2Elipse5
             // 
             this.guna2Elipse5.TargetControl = this;
             // 
-            // uC_Customers1
-            // 
-            this.uC_Customers1.Location = new System.Drawing.Point(-3, 4);
-            this.uC_Customers1.Name = "uC_Customers1";
-            this.uC_Customers1.Size = new System.Drawing.Size(1321, 673);
-            this.uC_Customers1.TabIndex = 5;
-            // 
             // guna2Elipse6
             // 
             this.guna2Elipse6.TargetControl = this;
-            // 
-            // uC_Service1
-            // 
-            this.uC_Service1.Location = new System.Drawing.Point(-3, 3);
-            this.uC_Service1.Name = "uC_Service1";
-            this.uC_Service1.Size = new System.Drawing.Size(1321, 673);
-            this.uC_Service1.TabIndex = 6;
             // 
             // guna2Elipse7
             // 
@@ -427,25 +385,67 @@
             this.uC_PayBills1.Size = new System.Drawing.Size(1321, 673);
             this.uC_PayBills1.TabIndex = 7;
             // 
+            // uC_Service1
+            // 
+            this.uC_Service1.Location = new System.Drawing.Point(-3, 3);
+            this.uC_Service1.Name = "uC_Service1";
+            this.uC_Service1.Size = new System.Drawing.Size(1321, 673);
+            this.uC_Service1.TabIndex = 6;
+            // 
+            // uC_Customers1
+            // 
+            this.uC_Customers1.Location = new System.Drawing.Point(-3, 4);
+            this.uC_Customers1.Name = "uC_Customers1";
+            this.uC_Customers1.Size = new System.Drawing.Size(1321, 673);
+            this.uC_Customers1.TabIndex = 5;
+            // 
+            // uC_Rooms1
+            // 
+            this.uC_Rooms1.Location = new System.Drawing.Point(-3, 3);
+            this.uC_Rooms1.Name = "uC_Rooms1";
+            this.uC_Rooms1.Size = new System.Drawing.Size(1321, 673);
+            this.uC_Rooms1.TabIndex = 4;
+            // 
+            // uC_Employees1
+            // 
+            this.uC_Employees1.Location = new System.Drawing.Point(-3, 4);
+            this.uC_Employees1.Name = "uC_Employees1";
+            this.uC_Employees1.Size = new System.Drawing.Size(1321, 673);
+            this.uC_Employees1.TabIndex = 3;
+            // 
+            // uC_ServiceDetail1
+            // 
+            this.uC_ServiceDetail1.Location = new System.Drawing.Point(-3, 3);
+            this.uC_ServiceDetail1.Name = "uC_ServiceDetail1";
+            this.uC_ServiceDetail1.Size = new System.Drawing.Size(1321, 673);
+            this.uC_ServiceDetail1.TabIndex = 2;
+            // 
+            // uC_Reservations1
+            // 
+            this.uC_Reservations1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Reservations1.Name = "uC_Reservations1";
+            this.uC_Reservations1.Size = new System.Drawing.Size(1321, 673);
+            this.uC_Reservations1.TabIndex = 1;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1348, 813);
+            this.ClientSize = new System.Drawing.Size(1385, 815);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2Panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Dashboard";
             this.Text = "Form1";
             this.guna2Panel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
